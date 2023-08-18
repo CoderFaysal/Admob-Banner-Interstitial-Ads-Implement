@@ -22,7 +22,7 @@ Admob.setBanner(view.findViewById(R.id.banner), getContext());
 
 
 # Interstitial Ads
-## Main Activity onCreate 
+## JAVA onCreate 
 
 ```
 Admob.loadInt(MainActivity.this);
