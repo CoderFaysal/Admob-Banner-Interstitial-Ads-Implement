@@ -1,11 +1,35 @@
-# Main Activity onCreate 
+# Banner Ads
+
+## XML
+
+```
+<LinearLayout
+        android:id="@+id/banner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="5dp"
+        android:orientation="vertical"
+        android:layout_marginTop="5dp"
+        />
+```
+
+## JAVA onCreate
+
+```
+Admob.setBanner(view.findViewById(R.id.banner), getContext());
+```
+
+
+# Interstitial Ads
+## Main Activity onCreate 
 
 ```
 Admob.loadInt(MainActivity.this);
 ```
 
 
-# Button Click
+## Button Click
 
 ```
 
