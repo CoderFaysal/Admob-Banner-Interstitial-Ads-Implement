@@ -38,8 +38,17 @@ implementation 'com.google.android.gms:play-services-ads:22.2.0'
 
 ## JAVA onCreate
 
+### Fragment
+
 ```
 Admob.setBanner(view.findViewById(R.id.banner), getContext());
+```
+
+
+### Activity
+
+```
+Admob.setBanner(findViewById(R.id.banner), Flower.this);
 ```
 
 
